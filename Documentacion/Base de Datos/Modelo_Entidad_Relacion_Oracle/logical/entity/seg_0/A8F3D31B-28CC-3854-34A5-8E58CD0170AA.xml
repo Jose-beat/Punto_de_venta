@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A8F3D31B-28CC-3854-34A5-8E58CD0170AA" name="DETALLE_COMPRAS">
+<createdBy>war-plane</createdBy>
+<createdTime>2020-07-10 01:42:51 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_Oracle</ownerDesignName>
+<engineerTo>
+<item key="81DAB80C-2BA1-E74E-9072-4FFFA39510F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="9D9D6406-E2E5-3441-DC1B-FC213130CE30">
+<createdBy>war-plane</createdBy>
+<createdTime>2020-07-10 01:43:04 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_Oracle</ownerDesignName>
+<engineerTo>
+<item key="81DAB80C-2BA1-E74E-9072-4FFFA39510F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad" id="9EA2B87C-6F54-52A2-28C9-F82383A3F37C">
+<createdBy>war-plane</createdBy>
+<createdTime>2020-07-10 01:43:20 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_Oracle</ownerDesignName>
+<engineerTo>
+<item key="81DAB80C-2BA1-E74E-9072-4FFFA39510F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio" id="0C4810DA-F310-342C-AA8F-1F691A780CC4">
+<createdBy>war-plane</createdBy>
+<createdTime>2020-07-10 01:43:41 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_Oracle</ownerDesignName>
+<engineerTo>
+<item key="81DAB80C-2BA1-E74E-9072-4FFFA39510F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,11,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="858EEB34-899A-AEEE-B2C9-44F27EBEAF23">
+<createdBy>war-plane</createdBy>
+<createdTime>2020-07-11 00:32:41 UTC</createdTime>
+<generatorID>2650FF40-0454-9212-1BE1-88171B08F719</generatorID>
+<ownerDesignName>Modelo_Entidad_Relacion_Oracle</ownerDesignName>
+<engineerTo>
+<item key="81DAB80C-2BA1-E74E-9072-4FFFA39510F3" value="true"/>
+</engineerTo>
+<referedAttribute>A0A21AED-BC93-6D96-D773-8EB6331BFC0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="2632C3E9-E94B-A392-296C-C6B198CFF77C">
+<createdBy>war-plane</createdBy>
+<createdTime>2020-07-11 00:34:19 UTC</createdTime>
+<generatorID>C423E8C2-52FE-47EB-74C8-05304F0526B6</generatorID>
+<ownerDesignName>Modelo_Entidad_Relacion_Oracle</ownerDesignName>
+<engineerTo>
+<item key="81DAB80C-2BA1-E74E-9072-4FFFA39510F3" value="true"/>
+</engineerTo>
+<referedAttribute>EDFB2752-BDAD-C306-6779-4CA6951BA456</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E0F3795B-800E-2262-1155-C5BDF379B576" name="DETALLE_COMPRAS PK">
+<createdBy>war-plane</createdBy>
+<createdTime>2020-07-10 01:43:18 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_Oracle</ownerDesignName>
+<engineerTo>
+<item key="81DAB80C-2BA1-E74E-9072-4FFFA39510F3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9D9D6406-E2E5-3441-DC1B-FC213130CE30</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

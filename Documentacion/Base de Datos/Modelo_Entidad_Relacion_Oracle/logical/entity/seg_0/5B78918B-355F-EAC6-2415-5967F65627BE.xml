@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5B78918B-355F-EAC6-2415-5967F65627BE" name="DETALLE_VENTAS">
+<createdBy>war-plane</createdBy>
+<createdTime>2020-07-09 22:21:35 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_Oracle</ownerDesignName>
+<engineerTo>
+<item key="81DAB80C-2BA1-E74E-9072-4FFFA39510F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="C0CD65EF-52A1-CA1C-AAE6-F60336988821">
+<createdBy>war-plane</createdBy>
+<createdTime>2020-07-09 22:21:39 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_Oracle</ownerDesignName>
+<engineerTo>
+<item key="81DAB80C-2BA1-E74E-9072-4FFFA39510F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad" id="4EF01687-AFEF-6CA6-4E79-370F980EB11E">
+<createdBy>war-plane</createdBy>
+<createdTime>2020-07-09 22:23:37 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_Oracle</ownerDesignName>
+<engineerTo>
+<item key="81DAB80C-2BA1-E74E-9072-4FFFA39510F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio" id="B65C7D42-4AA4-ADD8-D0C8-1B42E905B3C2">
+<createdBy>war-plane</createdBy>
+<createdTime>2020-07-09 22:24:08 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_Oracle</ownerDesignName>
+<engineerTo>
+<item key="81DAB80C-2BA1-E74E-9072-4FFFA39510F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,11,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descuento" id="E683C2C3-580B-8D53-D5B7-BBF34B941711">
+<createdBy>war-plane</createdBy>
+<createdTime>2020-07-09 22:24:49 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_Oracle</ownerDesignName>
+<engineerTo>
+<item key="81DAB80C-2BA1-E74E-9072-4FFFA39510F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="1C92F30F-6F88-84E3-12BA-1255C10F7266">
+<createdBy>war-plane</createdBy>
+<createdTime>2020-07-11 00:35:05 UTC</createdTime>
+<generatorID>9C310030-81F2-373E-4445-FE5C2E32D473</generatorID>
+<ownerDesignName>Modelo_Entidad_Relacion_Oracle</ownerDesignName>
+<engineerTo>
+<item key="81DAB80C-2BA1-E74E-9072-4FFFA39510F3" value="true"/>
+</engineerTo>
+<referedAttribute>1020A07C-BE0C-AF06-AD21-92325F0D9530</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="739C66A1-43BE-CE3D-999B-25D8EA56EC76">
+<createdBy>war-plane</createdBy>
+<createdTime>2020-07-11 00:35:16 UTC</createdTime>
+<generatorID>8ABFE48F-8A19-B1EA-8977-1F2DA90EF2A0</generatorID>
+<ownerDesignName>Modelo_Entidad_Relacion_Oracle</ownerDesignName>
+<engineerTo>
+<item key="81DAB80C-2BA1-E74E-9072-4FFFA39510F3" value="true"/>
+</engineerTo>
+<referedAttribute>EDFB2752-BDAD-C306-6779-4CA6951BA456</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7A22A03C-5489-A2ED-57AA-177A71C21215" name="DETALLE_VENTAS PK">
+<createdBy>war-plane</createdBy>
+<createdTime>2020-07-09 22:22:17 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_Oracle</ownerDesignName>
+<engineerTo>
+<item key="81DAB80C-2BA1-E74E-9072-4FFFA39510F3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C0CD65EF-52A1-CA1C-AAE6-F60336988821</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

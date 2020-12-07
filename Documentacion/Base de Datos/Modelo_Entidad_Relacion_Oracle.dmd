@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo_Entidad_Relacion_Oracle" id="EDC832DC-FAD9-564F-7BEA-E5EEDF819EEE" version="3.5">
+<createdBy>war-plane</createdBy>
+<createdTime>2020-07-09 14:41:31 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_Oracle</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EDC832DC-FAD9-564F-7BEA-E5EEDF819EEE</designId>
+</OSDM_Design>

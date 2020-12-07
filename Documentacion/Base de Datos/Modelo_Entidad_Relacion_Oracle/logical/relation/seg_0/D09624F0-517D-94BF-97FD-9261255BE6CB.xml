@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="D09624F0-517D-94BF-97FD-9261255BE6CB">
+<createdBy>war-plane</createdBy>
+<createdTime>2020-07-11 00:30:49 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_Oracle</ownerDesignName>
+<engineerTo>
+<item key="81DAB80C-2BA1-E74E-9072-4FFFA39510F3" value="true"/>
+</engineerTo>
+<sourcePk>AB28AC3A-8DB7-9CB3-A257-5C9A5605A181</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>792EE7A5-C8ED-7D29-D6DA-FB29757B844F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CE910C18-256C-1D17-B328-B191CB6C7F2D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

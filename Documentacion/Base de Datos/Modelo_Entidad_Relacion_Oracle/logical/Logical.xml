@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="BAC5791F-8EBF-6069-841D-B25318C21137" mainViewID="9F5025AC-55EF-04F8-2CDD-29E3D7D167A9">
+<createdBy>war-plane</createdBy>
+<createdTime>2020-07-09 14:41:32 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_Oracle</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

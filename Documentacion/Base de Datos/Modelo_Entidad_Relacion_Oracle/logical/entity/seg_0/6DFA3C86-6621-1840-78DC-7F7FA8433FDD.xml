@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6DFA3C86-6621-1840-78DC-7F7FA8433FDD" name="MIGRATIONS">
+<createdBy>war-plane</createdBy>
+<createdTime>2020-07-10 01:41:48 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_Oracle</ownerDesignName>
+<engineerTo>
+<item key="81DAB80C-2BA1-E74E-9072-4FFFA39510F3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="85306D8E-661C-37D5-783A-34434C6A6CF8">
+<createdBy>war-plane</createdBy>
+<createdTime>2020-07-10 01:41:56 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_Oracle</ownerDesignName>
+<engineerTo>
+<item key="81DAB80C-2BA1-E74E-9072-4FFFA39510F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="migration" id="352F5DA4-3E6E-71AA-8AB6-5688A7ADDEBE">
+<createdBy>war-plane</createdBy>
+<createdTime>2020-07-10 01:42:11 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_Oracle</ownerDesignName>
+<engineerTo>
+<item key="81DAB80C-2BA1-E74E-9072-4FFFA39510F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>191</dataTypeSize>
+<ownDataTypeParameters>191,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="batch" id="ADF124C9-F0DD-BC3E-1A79-9BA132FA405D">
+<createdBy>war-plane</createdBy>
+<createdTime>2020-07-10 01:42:30 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_Oracle</ownerDesignName>
+<engineerTo>
+<item key="81DAB80C-2BA1-E74E-9072-4FFFA39510F3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="8459FFA5-D197-CF50-67F7-19650DBB6664">
+<createdBy>war-plane</createdBy>
+<createdTime>2020-07-11 00:46:52 UTC</createdTime>
+<generatorID>C73097CA-88D9-BC50-0F4C-989F50FEE435</generatorID>
+<ownerDesignName>Modelo_Entidad_Relacion_Oracle</ownerDesignName>
+<engineerTo>
+<item key="81DAB80C-2BA1-E74E-9072-4FFFA39510F3" value="true"/>
+</engineerTo>
+<referedAttribute>006FC83B-D452-1015-3862-BCB41E47407C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4A070777-14A3-2A27-DBB9-3A1E92E72D1F" name="MIGRATIONS PK">
+<createdBy>war-plane</createdBy>
+<createdTime>2020-07-10 01:42:44 UTC</createdTime>
+<ownerDesignName>Modelo_Entidad_Relacion_Oracle</ownerDesignName>
+<engineerTo>
+<item key="81DAB80C-2BA1-E74E-9072-4FFFA39510F3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>85306D8E-661C-37D5-783A-34434C6A6CF8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

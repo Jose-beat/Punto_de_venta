@@ -1,0 +1,17 @@
+ACCESO AL PROYECTO
+
+  USUARIO:ucevito
+  PASSWORD:ab/*06011952
+
+
+----	COMANDO PARA VISUALIZAR PROYECTO EN OTROS DISPOSITIVOS -------
+
+php artisan serve --host=0.0.0.0 --port=8000
+
+
+
+1 Para usar las imagenes hay que instalar el comando php artisan storage:link
+
+2 Para los reportes hay que instalar el DOMSCRIPT
+
+3 
